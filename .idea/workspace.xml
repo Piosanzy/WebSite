@@ -31,9 +31,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myProjects/WebProject/bear01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\website\views" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608775882601</updated>
-      <workItem from="1608775883643" duration="6034000" />
+      <workItem from="1608775883643" duration="8221000" />
     </task>
     <servers />
   </component>
@@ -51,9 +56,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608786373647">
+    <state x="586" y="198" key="#Inspections" timestamp="1608790633639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1200.-426.1200.1880@0.0.1920.1040" timestamp="1608786373647" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1200.-426.1200.1880@0.0.1920.1040" timestamp="1608790633639" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608789928281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1200.-426.1200.1880@0.0.1920.1040" timestamp="1608789928281" />
   </component>
 </project>

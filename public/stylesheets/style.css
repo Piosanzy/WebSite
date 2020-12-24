@@ -1,8 +1,21 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
+.topBar{
+  position:fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 54px;
+  z-index: 10;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #d8d8d8;
+}
+.pageTitle{
+  font-size: 20px;
+  width: 20%;
+}
+.thisPage{
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
 }
