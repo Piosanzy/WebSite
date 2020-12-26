@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f440c540-edec-4401-8715-ffc67a4cee38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/startWindowPM2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/page/main/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/page/main/index.ejs" afterDir="false" />
     </list>
@@ -58,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608775882601</updated>
       <workItem from="1608775883643" duration="8221000" />
-      <workItem from="1608952268383" duration="1991000" />
+      <workItem from="1608952268383" duration="2986000" />
     </task>
     <servers />
   </component>
