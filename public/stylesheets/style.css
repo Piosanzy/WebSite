@@ -1,3 +1,7 @@
+html, body{
+  margin: 0;
+  height: 100%;
+}
 .topBar{
   position:fixed;
   display: flex;
@@ -32,7 +36,6 @@
 }
 
 .moveButton{
-  background-color: yellow;
   padding-top: 30px;
   padding-bottom: 10px;
   display: flex;
@@ -44,4 +47,13 @@
 .moveButtonIcon{
   font-size: 10px;
   padding-left: 10px;
+}
+
+.mainContainer{
+  position:relative;
+  width: calc(100% - 130px);
+  height: calc(100% - 54px);
+  background-color: #e5e6eb;
+  top: 54px;
+  left: 130px;
 }
