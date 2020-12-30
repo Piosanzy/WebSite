@@ -13,6 +13,6 @@ router.get('/soccer/league',async function (req,res,next){
 })
 router.get('/number',async function (req,res,next){
     const number = req.body.number;
-    res.json(number+1);
+    res.json({number:number+1});
 })
 module.exports = router;
