@@ -31,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Work/happybot-v2-supermarket-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -50,6 +50,7 @@
       <updated>1608775882601</updated>
       <workItem from="1608775883643" duration="11273000" />
       <workItem from="1609116630656" duration="10210000" />
+      <workItem from="1609311621618" duration="40000" />
     </task>
     <servers />
   </component>

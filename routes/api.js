@@ -11,4 +11,8 @@ router.get('/soccer/league',async function (req,res,next){
     const data = await apiController.getLeague(country);
     res.json(data);
 })
+router.get('/number',async function (req,res,next){
+    const number = req.body.number;
+    res.json(number+1);
+})
 module.exports = router;
