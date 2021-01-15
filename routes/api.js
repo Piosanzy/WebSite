@@ -1,19 +1,19 @@
 var express = require('express');
 var router = express.Router();
 
-const apiController = require('../controller/api/soccerApi/index');
-router.get('/soccer/country',async function (req,res,next){
-    const data = await apiController.getCountry();
+const covidApiController = require('../controller/api/covid/index');
+const dateApiController = require('../controller/api/date/index');
+router.get('/covid',async function (req,res,next) {
+    const startDate = req.query.startDate;
+    const endDate = req.query.endDate;
+    const pageNo = req.query.pageNo;
+
+    const data = await covidApiController().getCovidData(startDate,endDate,pageNo);
+    res.json(data);
+});
+router.get('/date',async function (req,res,next) {
+    const data = await dateApiController().getDate();
     res.json(data);
 })
-router.get('/soccer/league',async function (req,res,next){
-    const country = req.query.country;
-    const data = await apiController.getLeague(country);
-    res.json(data);
-})
-router.get('/number',async function (req,res,next){
-    const number = req.query.number;
-    const a = Number(number) + 1;
-    res.json({number:a});
-})
+
 module.exports = router;
