@@ -19,7 +19,6 @@ router.get('/covid',async function (req,res,next) {
     }
 
 });
-//asasdasdas
 router.get('/date',async function (req,res,next) {
     const data = await dateApiController().getDate();
     res.json(data);
