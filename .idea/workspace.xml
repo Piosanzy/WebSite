@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f440c540-edec-4401-8715-ffc67a4cee38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/api/covid/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/api/date/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/api/soccerApi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/api/covid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/covid/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +59,9 @@
       <workItem from="1610431224888" duration="521000" />
       <workItem from="1610499052363" duration="172000" />
       <workItem from="1610585263387" duration="546000" />
-      <workItem from="1610672076368" duration="5583000" />
+      <workItem from="1610672076368" duration="6064000" />
+      <workItem from="1610931185249" duration="6000" />
+      <workItem from="1610931266296" duration="1209000" />
     </task>
     <servers />
   </component>
@@ -80,5 +78,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

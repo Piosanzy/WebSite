@@ -6,14 +6,22 @@ const dateApiController = require('../controller/api/date/index');
 router.get('/covid',async function (req,res,next) {
     const startDate = req.query.startDate;
     const endDate = req.query.endDate;
-    const pageNo = req.query.pageNo;
+    const searchType = req.query.searchType;
 
-    const data = await covidApiController().getCovidData(startDate,endDate,pageNo);
-    res.json(data);
+    if(typeof searchType === "undefined"){
+        const data = await covidApiController().getCovidData(startDate,endDate);
+        res.json(data);
+    }else{
+        if(searchType === "today"){
+            const data = await covidApiController().getTodayCovidData();
+            res.json(data);
+        }
+    }
+
 });
 router.get('/date',async function (req,res,next) {
     const data = await dateApiController().getDate();
     res.json(data);
-})
+});
 
 module.exports = router;
